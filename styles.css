@@ -11,9 +11,12 @@
     margin-top: 40vh;
 }
 .barraBotones{
-    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .search-button{
+    margin-top: 20px;
     font-family:"MS Sans Serif";
     font-size:17px;
     outline:1px solid #000000;
@@ -22,6 +25,8 @@
     border-style:solid;
     border-color:#FFFFFF #808080 #808080 #FFFFFF;
     width: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   .search-button:hover {
