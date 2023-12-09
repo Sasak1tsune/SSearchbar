@@ -16,3 +16,26 @@ function busqueda(dominio) {
     // Redirige a la búsqueda en Google
     window.location.href = busquedaUrl;
 }
+function actualizarReloj() {
+    var ahora = new Date();
+    var horas = ahora.getHours();
+    var minutos = ahora.getMinutes();
+    var segundos = ahora.getSeconds();
+    var dia = ahora.getDate();
+    var mes = ahora.getMonth() + 1; // ¡Recuerda que los meses en JavaScript comienzan desde 0!
+    var año = ahora.getFullYear();
+
+    horas = horas < 10 ? "0" + horas : horas;
+    minutos = minutos < 10 ? "0" + minutos : minutos;
+    segundos = segundos < 10 ? "0" + segundos : segundos;
+    mes = mes < 10 ? "0" + mes : mes;
+
+    var cadenaTiempo = horas + ":" + minutos + ":" + segundos;
+    var cadenaFecha = dia + "/" + mes + "/" + año;
+
+    document.getElementById("reloj").innerHTML = cadenaTiempo + "<br>" + cadenaFecha;
+}
+
+setInterval(actualizarReloj, 1000);
+
+actualizarReloj();
