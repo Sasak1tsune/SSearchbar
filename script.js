@@ -35,6 +35,13 @@ function actualizarReloj() {
 
     document.getElementById("reloj").innerHTML = cadenaTiempo + "<br>" + cadenaFecha;
 }
+function handleKeyPress(event) {
+    // Verificar si la tecla presionada es "Enter" (código 13)
+    if (event.keyCode === 13) {
+        // Llamar a la función busqueda(1) cuando se presiona "Enter"
+        busqueda(1);
+    }
+}
 
 setInterval(actualizarReloj, 1000);
 
