@@ -33,7 +33,7 @@ function actualizarReloj() {
     var cadenaTiempo = horas + ":" + minutos + ":" + segundos;
     var cadenaFecha = dia + "/" + mes + "/" + año;
 
-    document.getElementById("reloj").innerHTML = cadenaTiempo + "<br>" + cadenaFecha;
+    document.getElementById("reloj").innerHTML = cadenaFecha + "<br>" + cadenaTiempo;
 }
 function handleKeyPress(event) {
     // Verificar si la tecla presionada es "Enter" (código 13)
