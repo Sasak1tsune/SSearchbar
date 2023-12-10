@@ -26,25 +26,13 @@ p{
     border-width:1px;
     border-style:solid;
     border-color:#FFFFFF #808080 #808080 #FFFFFF;
-    width: 170px;
+    width: 150px;
     margin-left: 20px;
     margin-right: 20px;
   }
   
   .search-button:hover {
     background-color: #a0a0a0; /* Cambio de color al pasar el ratón */
-  }
-  
-  .google {
-    color: #4285f4; /* Color de Google */
-  }
-  
-  .duckduckgo {
-    color: #de5833; /* Color de DuckDuckGo */
-  }
-  
-  .bing {
-    color: #2a5699; /* Color de Bing */
   }
 body{
   background-color: #2c2c41;
