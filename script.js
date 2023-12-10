@@ -17,7 +17,7 @@ function busqueda(dominio) {
             break;
     }
     // Redirige a la búsqueda en Google
-    window.location.href = busquedaUrl;
+    window.open(busquedaUrl);
 }
 function actualizarReloj() {
     var ahora = new Date();
