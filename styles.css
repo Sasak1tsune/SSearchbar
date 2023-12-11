@@ -37,6 +37,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .search-button {
