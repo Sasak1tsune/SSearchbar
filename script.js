@@ -22,6 +22,9 @@ function busqueda(dominio) {
         case 4:
             busquedaUrl = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(searchTerm);
             break;
+        case 5:
+            busquedaUrl = 'https://educacionadistancia.juntadeandalucia.es/centros/almeria/my/';
+            break;
     }
     // Redirige a la búsqueda en Google
     window.open(busquedaUrl);
