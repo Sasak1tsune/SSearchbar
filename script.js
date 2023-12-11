@@ -1,3 +1,10 @@
+function Enter(event) {
+    if (event.keyCode === 13) {
+        // Aquí puedes llamar a la función que deseas ejecutar
+        busqueda(1);
+    }
+}
+
 function busqueda(dominio) {
     // Obten el valor del input de búsqueda
     var searchTerm = document.getElementById('searchInput').value;
