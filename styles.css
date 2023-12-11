@@ -20,6 +20,10 @@ p {
 .barraPrincipal {
   margin-top: 6vh;
 }
+.reloj{
+  font-family: "MS Sans Serif";
+  font-size: 17px;
+}
 .busqueda{
   font-family: "MS Sans Serif";
   font-size: 17px;
