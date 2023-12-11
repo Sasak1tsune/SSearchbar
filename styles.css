@@ -1,3 +1,8 @@
+.imagenPrincipal{
+  border-radius: 1%;
+  border-color: white;
+  border-style: solid;
+}
 .link {
   font-size: 18px;
   text-decoration: none;
@@ -15,7 +20,15 @@ p {
 .barraPrincipal {
   margin-top: 6vh;
 }
-
+.busqueda{
+  font-family: "MS Sans Serif";
+  font-size: 17px;
+  outline: 1px solid #000000;
+  background: #C0C0C0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFFFFF #808080 #808080 #FFFFFF;
+}
 .barraBotones {
   display: flex;
   flex-wrap: wrap;
